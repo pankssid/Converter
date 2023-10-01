@@ -536,7 +536,6 @@ insurance upon policy renewals.
     if input_values["Client Name"]!=None :
         converted_=converted_.replace("City of Oxnard"," "+input_values["Client Name"])
         # st.write(converted_)
-
     
     # if (input_values["Client Name First Name"]!=None and input_values["Client Name Last Name"]==None):
     #     converted_=converted_.replace("City of Oxnard"," "+input_values["Client Name First Name"])
@@ -559,7 +558,7 @@ insurance upon policy renewals.
 
 
     if input_values["Client Short Name"]!=None :
-        converted_=converted_.replace(" City"," "+input_values["Client Short Name"])
+        converted_=converted_.replace(" City"," "+input_values["Client Short Name"]).replace("Oxnard City"," "+input_values["Client Short Name"])
         # st.write(converted_)
 
     
