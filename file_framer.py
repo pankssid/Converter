@@ -570,7 +570,7 @@ insurance upon policy renewals.
         label="Download Coverted Doc",
         data=converted_,
         file_name='Converted_code.docx',
-        mime='text/csv',
+        mime='text',
     )
     # print("aaaaaaaa ",Template_2)
 
